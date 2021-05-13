@@ -1,0 +1,88 @@
+/* .formWrapper{
+
+} */
+
+.cont{
+    /* background: yellow; */
+    width:40%;
+    margin:12rem auto;
+    background:#fff;
+    padding:2rem;
+    border-radius:1rem;
+    border: 5px solid dodgerblue;
+    /* color: white; */
+}
+
+.cont h1{
+    color: darkblue;
+    font-weight: 700;
+}
+
+.cont p{
+    font-weight: 700;
+}
+
+.formCotainer{
+    width:600px;
+    height: 100px;
+    margin: 0 auto;
+    /* background-color: black; */
+}
+
+.check{
+    height: 100px;
+    width:100px;
+    background-color: brown;
+}
+
+.outContainer{
+    text-align: center;
+    width: 40%;
+    font-size: 1rem;
+    font-weight: 600;
+    /* margin-top: 3rem; */
+    margin:11rem auto -9rem auto;
+    padding: 1rem 0 0.1px 0;
+    color: white;
+    border-radius: 1rem;
+    
+    /* background-color: #ad2102;s */
+}
+
+.iconContainer{
+    text-align: center;
+    width: 20%;
+    /* margin-top: 3rem; */
+    margin-left: 3rem;
+    /* margin:9rem auto -8rem auto; */
+    /* margin:1rem 3rem -8rem auto; */
+    border-radius: 1rem;
+}
+
+.icon-div{
+    width: 35%;
+    /* margin:9rem auto -8rem auto; */
+    /* background-color: white; */
+    margin: -5rem auto -15rem auto;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .cont{
+        width:80%;
+        margin:12rem auto;
+        padding: 2rem;
+    }
+
+    .outContainer{
+        
+        width: 60%;
+        /* margin-top: 3rem; */
+        margin:5rem auto -6rem auto;
+    }
+
+    .icon-div{
+        /* margin: -5rem auto -15rem auto; */
+        display: none;
+    }
+
+    
+}
